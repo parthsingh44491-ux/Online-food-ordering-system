@@ -1,0 +1,71 @@
+Online Food Ordering System
+
+A console-based Online Food Ordering System developed in C++ for a B.Tech CSE Project-Based Learning (PBL) project.
+
+Features
+
+* User registration and login
+* Arithmetic CAPTCHA verification
+* Display registered users
+* Food menu with prices and categories
+* Add items to a shopping cart
+* View cart and calculate the subtotal
+* Sort the food menu by price
+* Home delivery and self-pickup options
+* Automatic bill calculation and order confirmation
+
+Technologies Used
+
+* C++
+* Structures and functions
+* Vectors and arrays
+* Input validation
+* Modular programming
+* Git and GitHub
+
+Project Structure
+
+* main.cpp — Main program and navigation menu
+* models.h — Shared data structures and declarations
+* common.cpp — Common input and utility functions
+* captcha.cpp — CAPTCHA verification
+* users.cpp — User registration, login, and registered users
+* menu.cpp — Food menu and price sorting
+* cart.cpp — Shopping cart operations
+* delivery.cpp — Home delivery and self-pickup
+* checkout.cpp — Bill calculation and order confirmation
+
+How to Compile and Run
+
+Make sure a C++ compiler such as GCC is installed.
+
+Compile all source files together:
+
+g++ main.cpp common.cpp captcha.cpp users.cpp menu.cpp cart.cpp delivery.cpp checkout.cpp -o food_ordering
+
+Run on Windows:
+
+.\food_ordering.exe
+
+Run on Linux:
+
+./food_ordering
+
+How to Use
+
+1. Register a user.
+2. Log in using the registered User ID.
+3. Browse the food menu.
+4. Add food items to the cart.
+5. Select home delivery or self-pickup.
+6. Review the bill and confirm the order.
+
+Project Purpose
+
+This project demonstrates modular C++ programming, data structures, user input handling, and a basic food ordering workflow.
+
+Author
+
+Parth Singh
+
+B.Tech Computer Science and Engineering
